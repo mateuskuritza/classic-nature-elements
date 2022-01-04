@@ -14,4 +14,5 @@ const Container = styled.div`
 	width: 90%;
 	text-align: center;
 	padding: 2px;
+	border-radius: 4px;
 `;
