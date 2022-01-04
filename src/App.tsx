@@ -44,10 +44,10 @@ function App() {
 	const mergeElements = useCallback(() => {
 		const learnedElementsQuantity = elements.filter((element) => element.learned).length;
 		if (learnedElementsQuantity !== 4) {
-			toast("Elementos dominados insuficientes!");
+			toast.error("Elementos dominados insuficientes!");
 			return;
 		}
-		toast("Elementos fundidos!");
+		toast.success("Elementos fundidos!");
 	}, [elements]);
 
 	return (
