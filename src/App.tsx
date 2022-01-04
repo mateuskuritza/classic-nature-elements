@@ -7,6 +7,9 @@ import Element from "./components/Element";
 import IElement from "./interfaces/IElement";
 import MergeContainer from "./components/MergeContainer";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
 	const [elements, setElements] = useState<IElement[]>([
 		{
@@ -41,15 +44,16 @@ function App() {
 	const mergeElements = useCallback(() => {
 		const learnedElementsQuantity = elements.filter((element) => element.learned).length;
 		if (learnedElementsQuantity !== 4) {
-			alert("Elementos dominados insuficientes!");
+			toast("Elementos dominados insuficientes!");
 			return;
 		}
-		alert("Elementos fundidos!");
+		toast("Elementos fundidos!");
 	}, [elements]);
 
 	return (
 		<PageContainer>
 			<GlobalStyle />
+			<ToastContainer />
 			<MergeContainer merge={() => mergeElements()} />
 			<ElementsContainer>
 				{elements.map((element, i) => (
