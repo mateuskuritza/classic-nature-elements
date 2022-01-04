@@ -1,9 +1,11 @@
 import React, { useCallback, useState } from "react";
 
+import styled from "styled-components";
 import "./styles/reset.css";
 import GlobalStyle from "./styles/global";
 import Element from "./components/Element";
 import IElement from "./interfaces/IElement";
+import MergeContainer from "./components/MergeContainer";
 
 function App() {
 	const [elements, setElements] = useState<IElement[]>([
@@ -36,14 +38,42 @@ function App() {
 		[setElements, elements]
 	);
 
+	const mergeElements = useCallback(() => {
+		const learnedElementsQuantity = elements.filter((element) => element.learned).length;
+		if (learnedElementsQuantity !== 4) {
+			alert("Elementos dominados insuficientes!");
+			return;
+		}
+		alert("Elementos fundidos!");
+	}, [elements]);
+
 	return (
-		<div>
+		<PageContainer>
 			<GlobalStyle />
-			{elements.map((element, i) => (
-				<Element key={i} elementInfos={element} changeElement={handleElementLearn} />
-			))}
-		</div>
+			<MergeContainer merge={() => mergeElements()} />
+			<ElementsContainer>
+				{elements.map((element, i) => (
+					<Element key={i} elementInfos={element} changeElement={handleElementLearn} />
+				))}
+			</ElementsContainer>
+		</PageContainer>
 	);
 }
+
+const PageContainer = styled.div`
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+`;
+
+const ElementsContainer = styled.div`
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+`;
 
 export default App;

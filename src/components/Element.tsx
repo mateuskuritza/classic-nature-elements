@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import IElement from "../interfaces/IElement";
+import Button from "./Button";
 import Learned from "./Learned";
 import NotLearned from "./NotLearned";
 
@@ -13,23 +14,6 @@ export default function Element({ elementInfos: { name, learned }, changeElement
 		</Container>
 	);
 }
-
-const Button = styled.button`
-	border: none;
-	border-radius: 10px;
-	padding: 5px;
-	width: 80%;
-
-	background-color: #397ca8;
-	color: white;
-
-	cursor: pointer;
-
-	:hover {
-		transform: scale(1.05);
-		background-color: #599ecc;
-	}
-`;
 
 const Container = styled.div`
 	width: 150px;
