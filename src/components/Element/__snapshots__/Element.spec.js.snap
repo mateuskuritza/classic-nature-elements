@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should correct img (src) and alt text 1`] = `
+<div>
+  <div
+    class="sc-hKwDye IcbJx"
+  >
+    <img
+      alt="fire element"
+      class="sc-eCImPb grWgTS"
+      src="./assets/fire.jpg"
+    />
+    <button
+      class="sc-bdvvtL LSrWP"
+    >
+      Esquecer
+    </button>
+    <p>
+      FIRE
+    </p>
+    <div
+      class="sc-gsDKAQ fjiGyX"
+    >
+      <p>
+        Dominado!
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render Dominar text and NotLearned component 1`] = `
+<div>
+  <div
+    class="sc-hKwDye IcbJx"
+  >
+    <img
+      alt="fire element"
+      class="sc-eCImPb grWgTS"
+      src="./assets/fire.jpg"
+    />
+    <button
+      class="sc-bdvvtL LSrWP"
+    >
+      Dominar
+    </button>
+    <p>
+      FIRE
+    </p>
+    <div
+      class="sc-dkPtRN iRVeL"
+    >
+      <p>
+        Não dominado
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render Element 1`] = `
+<div>
+  <div
+    class="sc-hKwDye IcbJx"
+  >
+    <img
+      alt="fire element"
+      class="sc-eCImPb grWgTS"
+      src="./assets/fire.jpg"
+    />
+    <button
+      class="sc-bdvvtL LSrWP"
+    >
+      Dominar
+    </button>
+    <p>
+      FIRE
+    </p>
+    <div
+      class="sc-dkPtRN iRVeL"
+    >
+      <p>
+        Não dominado
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render Esquecer text and Learned component 1`] = `
+<div>
+  <div
+    class="sc-hKwDye IcbJx"
+  >
+    <img
+      alt="fire element"
+      class="sc-eCImPb grWgTS"
+      src="./assets/fire.jpg"
+    />
+    <button
+      class="sc-bdvvtL LSrWP"
+    >
+      Esquecer
+    </button>
+    <p>
+      FIRE
+    </p>
+    <div
+      class="sc-gsDKAQ fjiGyX"
+    >
+      <p>
+        Dominado!
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render name correct img src and alt text 1`] = `
+<div>
+  <div
+    class="sc-hKwDye IcbJx"
+  >
+    <img
+      alt="fire element"
+      class="sc-eCImPb grWgTS"
+      src="./assets/fire.jpg"
+    />
+    <button
+      class="sc-bdvvtL LSrWP"
+    >
+      Esquecer
+    </button>
+    <p>
+      FIRE
+    </p>
+    <div
+      class="sc-gsDKAQ fjiGyX"
+    >
+      <p>
+        Dominado!
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render name upperCase 1`] = `
+<div>
+  <div
+    class="sc-hKwDye IcbJx"
+  >
+    <img
+      alt="fire element"
+      class="sc-eCImPb grWgTS"
+      src="./assets/fire.jpg"
+    />
+    <button
+      class="sc-bdvvtL LSrWP"
+    >
+      Dominar
+    </button>
+    <p>
+      FIRE
+    </p>
+    <div
+      class="sc-dkPtRN iRVeL"
+    >
+      <p>
+        Não dominado
+      </p>
+    </div>
+  </div>
+</div>
+`;

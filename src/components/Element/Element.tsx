@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import IElement from "../interfaces/IElement";
-import Button from "./Button/Button";
-import Learned from "./Learned/Learned";
-import NotLearned from "./NotLearned/NotLearned";
+import IElement from "../../interfaces/IElement";
+import Button from "../Button/Button";
+import Learned from "../Learned/Learned";
+import NotLearned from "../NotLearned/NotLearned";
 
 export default function Element({ elementInfos: { name, learned }, changeElement }: { elementInfos: IElement; changeElement: CallableFunction }) {
 	return (

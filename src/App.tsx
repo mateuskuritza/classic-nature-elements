@@ -3,7 +3,7 @@ import React, { useCallback, useState } from "react";
 import styled from "styled-components";
 import "./styles/reset.css";
 import GlobalStyle from "./styles/global";
-import Element from "./components/Element";
+import Element from "./components/Element/Element";
 import IElement from "./interfaces/IElement";
 import MergeContainer from "./components/MergeContainer/MergeContainer";
 
