@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the Button 1`] = `
+<div>
+  <button
+    class="sc-bdvvtL LSrWP"
+  />
+</div>
+`;
+
+exports[`Should render the Button with children 1`] = `
+<div>
+  <button
+    class="sc-bdvvtL LSrWP"
+  >
+    testText
+  </button>
+</div>
+`;
+
+exports[`Should render the Button with children and props with function 1`] = `
+<div>
+  <button
+    class="sc-bdvvtL LSrWP"
+    placeholder="testText"
+  >
+    testText
+  </button>
+</div>
+`;
+
+exports[`Should render the Button with props 1`] = `
+<div>
+  <button
+    class="sc-bdvvtL LSrWP"
+    placeholder="testText"
+  />
+</div>
+`;

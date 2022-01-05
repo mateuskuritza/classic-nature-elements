@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import IElement from "../interfaces/IElement";
-import Button from "./Button";
+import Button from "./Button/Button";
 import Learned from "./Learned";
 import NotLearned from "./NotLearned";
 
