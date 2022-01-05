@@ -5,7 +5,7 @@ import "./styles/reset.css";
 import GlobalStyle from "./styles/global";
 import Element from "./components/Element";
 import IElement from "./interfaces/IElement";
-import MergeContainer from "./components/MergeContainer";
+import MergeContainer from "./components/MergeContainer/MergeContainer";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should call merge function if click in MergeContainer button 1`] = `
+<div>
+  <div
+    class="sc-gsDKAQ hsklco"
+  >
+    <img
+      alt="yin yang merge"
+      src="./assets/yin-yang.png"
+    />
+    <button
+      class="sc-bdvvtL LSrWP"
+    >
+      Fundir!
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Should render MergeContainer 1`] = `
+<div>
+  <div
+    class="sc-gsDKAQ hsklco"
+  >
+    <img
+      alt="yin yang merge"
+      src="./assets/yin-yang.png"
+    />
+    <button
+      class="sc-bdvvtL LSrWP"
+    >
+      Fundir!
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Should render MergeContainer button 1`] = `
+<div>
+  <div
+    class="sc-gsDKAQ hsklco"
+  >
+    <img
+      alt="yin yang merge"
+      src="./assets/yin-yang.png"
+    />
+    <button
+      class="sc-bdvvtL LSrWP"
+    >
+      Fundir!
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Should render MergeContainer image 1`] = `
+<div>
+  <div
+    class="sc-gsDKAQ hsklco"
+  >
+    <img
+      alt="yin yang merge"
+      src="./assets/yin-yang.png"
+    />
+    <button
+      class="sc-bdvvtL LSrWP"
+    >
+      Fundir!
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Should render modal if click in MergeContainer button 1`] = `
+<div>
+  <div
+    class="sc-gsDKAQ hsklco"
+  >
+    <img
+      alt="yin yang merge"
+      src="./assets/yin-yang.png"
+    />
+    <button
+      class="sc-bdvvtL LSrWP"
+    >
+      Fundir!
+    </button>
+  </div>
+</div>
+`;
